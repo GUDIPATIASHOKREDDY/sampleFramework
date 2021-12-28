@@ -16,7 +16,24 @@ public class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    public init() {
+        super.init(nibName: nil, bundle: nil)
+        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+//
+//       view = viewController.view
+        // .instantiatViewControllerWithIdentifier() returns AnyObject! this must be downcast to utilize it
+      
+        
+    //    super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
+        self.present(viewController, animated: false, completion: nil)
+       
+    }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+   
     @IBAction func LoginAction(_ sender: Any) {
     }
     
