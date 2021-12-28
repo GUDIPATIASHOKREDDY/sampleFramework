@@ -18,12 +18,12 @@ public class LoginViewController: UIViewController {
     }
     public init() {
         super.init(nibName: nil, bundle: nil)
-        let viewController:UIViewController = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
-//
-//       view = viewController.view
-        // .instantiatViewControllerWithIdentifier() returns AnyObject! this must be downcast to utilize it
-      
-        self.view = viewController.view
+//        let viewController:UIViewController = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+////
+////       view = viewController.view
+//        // .instantiatViewControllerWithIdentifier() returns AnyObject! this must be downcast to utilize it
+//      
+//        self.view = viewController.view
     //    super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
       //  self.present(viewController, animated: false, completion: nil)
        

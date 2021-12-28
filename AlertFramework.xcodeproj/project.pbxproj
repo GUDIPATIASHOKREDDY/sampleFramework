@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A03E0E2277B4C990043B969 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03E0E1277B4C990043B969 /* Storyboard.storyboard */; };
+		3A03E0E2277B4C990043B969 /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03E0E1277B4C990043B969 /* Alert.storyboard */; };
 		3A03E0E4277B4D8D0043B969 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03E0E3277B4D8D0043B969 /* LoginViewController.swift */; };
 		3AB3D923277B0ECB00AFBFDF /* maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3D922277B0ECB00AFBFDF /* maths.swift */; };
 		3AEB07BD2776D9DE00DBB8ED /* AlertFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB07BC2776D9DE00DBB8ED /* AlertFramework.docc */; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A03E0E1277B4C990043B969 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3A03E0E1277B4C990043B969 /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
 		3A03E0E3277B4D8D0043B969 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3AB3D922277B0ECB00AFBFDF /* maths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maths.swift; sourceTree = "<group>"; };
 		3AEB07B82776D9DE00DBB8ED /* AlertFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +80,7 @@
 				3AEB07BB2776D9DE00DBB8ED /* AlertFramework.h */,
 				3AB3D922277B0ECB00AFBFDF /* maths.swift */,
 				3A03E0E3277B4D8D0043B969 /* LoginViewController.swift */,
-				3A03E0E1277B4C990043B969 /* Storyboard.storyboard */,
+				3A03E0E1277B4C990043B969 /* Alert.storyboard */,
 				3AEB07BC2776D9DE00DBB8ED /* AlertFramework.docc */,
 			);
 			path = AlertFramework;
@@ -186,7 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A03E0E2277B4C990043B969 /* Storyboard.storyboard in Resources */,
+				3A03E0E2277B4C990043B969 /* Alert.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
