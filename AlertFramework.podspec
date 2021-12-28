@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "GUDIPATIASHOKREDDY" => "gudipatiashok205@gmail.com" }
   spec.source       = { :git => 'https://github.com/GUDIPATIASHOKREDDY/sampleFramework.git' }
   spec.source_files  = "AlertFramework"
-  spec.exclude_files = "Classes/Exclude"
+  
   spec.swift_version = "4.2" 
 
 end
